@@ -27,7 +27,7 @@ end
   wear(2)
   stain_removal()
   wash(60)
-  dry(:drum_bass_hard)
+  dry(:drum)
 end
 
 3.times do
