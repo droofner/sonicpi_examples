@@ -1,0 +1,26 @@
+def wear(smell)
+  sample(smell)
+  sleep(1)
+end
+
+def wash(temperature)
+  play(temperature)
+  sleep(1)
+end
+
+def dry(timed)
+  sample(timed)
+  sleep(1)
+end
+
+3.times do
+  wear(2)
+  wash(60)
+  dry(:drum_bass_hard)
+end
+
+3.times do
+  wear(7)
+  wash(70)
+  dry(:drum_bass_soft)
+end
